@@ -1,1 +1,1 @@
-# light-weight-tracker-app
+# light-weight-app
