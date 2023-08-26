@@ -1,0 +1,23 @@
+$btn-size: 50px;
+$btn-color: #ff0000;  
+$btn-border: 1px solid #ff0000;
+$btn-trasition-time: .2s;
+$btn-transition: all cubic-bezier(0.310, -0.105, 0.430, 1.400) $btn-trasition-time;
+
+.btn--circle {
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1000px;
+    border: $btn-border;
+    height: $btn-size;
+    width: $btn-size;
+    transition: $btn-transition;
+    background-color: $btn-color;
+
+    bottom: 50px;
+
+}

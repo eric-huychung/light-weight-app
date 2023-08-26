@@ -1,0 +1,23 @@
+.addExercise {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+    
+    .exerciseInput {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn, .btn-primary {
+        background-color: red;
+        border:0;
+    }
+
+}
